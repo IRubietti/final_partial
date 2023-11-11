@@ -1,0 +1,15 @@
+https://replit.com/join/wfvwqkahvw-isabellarubiett
+import random
+
+n_lecturas=float(int("numero de lecturas"))
+
+def simular_lecturas(n_lecturas):
+  pass
+
+for _ in range(n_lecturas):
+  lectura=random.uniform(-10, 50)
+
+if lectura< 10 or lectura > 40:
+  lecturas_fuera_de_rango+=1
+  print(f"lectura fuera de rango: {lectura} grados Celsius")
+  porcentaje_error = (lecturas_fuera_de_rango / n_lecturas) * 100
