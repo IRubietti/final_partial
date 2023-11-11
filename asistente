@@ -1,0 +1,10 @@
+https://replit.com/join/ivrdrvilfw-isabellarubiett
+def detectar_alexa(texto):
+  palabras=texto.split()
+  veces_alexa=palabras.count('alexa')
+  if veces_alexa==1:
+    print("gracias por decir mi nombre")
+  elif veces_alexa>1:
+    print("solo di mi nombre 1 vez")
+  else:
+    print("porfavor di mi nombre")
