@@ -1,0 +1,21 @@
+https://replit.com/join/xupjoreovt-isabellarubiett
+class tiendavaritas:
+  def__init__(self):
+    self.registro.clientes={}
+  def ingresar_cliente(self, nombre):
+    if nombre not in self.registro_clientes:
+      self.registro_clientes[nombre]= []
+      
+def comprar_varita(self, nombre, varita):
+  if nombre in self.registro_clientes:
+    self.registro_clientes[nombre].append(varita)
+  else:
+    print("error")
+
+def mostrar_registro(self):
+  print("registro de clientes y varitas compradas")
+  for cliente, varitas in self.registro_clientes.items():
+    if varitas:
+      print(f"{cliente}: {', '.join(varitas)}")
+    else:
+      print(f"{cliente}: No ha comprado varitas.")
